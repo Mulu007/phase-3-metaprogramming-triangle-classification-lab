@@ -5,7 +5,7 @@ class Triangle
 
   def initialize(side1, side2, side3)
     @sides = [side1, side2, side3]
-    # sorts the sides array from the smallest and largest 
+    # sorts the sides array from the smallest to the largest 
     # the exclamation mark permanently changes the original array when it's sorted
     @sides.sort!
   end
